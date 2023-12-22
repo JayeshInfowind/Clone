@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './styles/sectionReviewDark.module.css'
+import styles from '../styles/sectionReviewDark.module.css'
 export function SectionReviewSvelte(){
     return (
         <div className={styles.reviewContainer}>

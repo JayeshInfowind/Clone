@@ -1,12 +1,10 @@
-import { Navbar } from "@/components/Navbar";
-import {SectionBanner} from "@/components/sectionBanner/SectionBanner"
-import{SectionUsage} from "@/components/SectionUsage"
-import {SectionReview} from '@/components/SectionReview'
-import { SectionReviewDark } from "@/components/SectionReviewDark";
-import {SectionIDEGallery} from "@/components/SectionIDEGallery";
-import { SectionReviewSvelte } from "@/components/SectionReviewSvelte";
-import {SectionInstantDevExp} from '@/components/SectionInstantDevExp';
-import Footer from "@/components/Footer";
+import {SectionBanner} from "@/components/landingPage/SectionBanner"
+import{SectionUsage} from "@/components/landingPage/SectionUsage"
+import {SectionReview} from '@/components/landingPage/SectionReview'
+import { SectionReviewDark } from "@/components/landingPage/SectionReviewDark";
+import {SectionIDEGallery} from "@/components/landingPage/SectionIDEGallery";
+import { SectionReviewSvelte } from "@/components/landingPage/SectionReviewSvelte";
+import {SectionInstantDevExp} from '@/components/landingPage/SectionInstantDevExp';
 export default function Home() {
   
   return (

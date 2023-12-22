@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./styles/sectionInstantDevExp.module.css";
+import styles from "../styles/sectionInstantDevExp.module.css";
 
 export function SectionInstantDevExp() {
   return (

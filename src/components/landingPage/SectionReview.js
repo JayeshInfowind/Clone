@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './styles/sectionReview.module.css'
+import styles from '../styles/sectionReview.module.css'
 export function SectionReview(){
     return (
         <div className={styles.reviewContainer}>

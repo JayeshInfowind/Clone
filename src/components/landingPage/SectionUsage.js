@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import styles from './styles/sectionUsage.module.css'
+import styles from '../styles/sectionUsage.module.css'
 export function SectionUsage(){
     return(
         <div className={styles.sectionUsage}>
