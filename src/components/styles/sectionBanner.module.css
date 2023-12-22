@@ -1,0 +1,98 @@
+.sectionOne{
+    background:rgb(27 26 29 / 98%);
+    min-height: 200vh;
+    padding-top: 124px;
+    padding-bottom: 0;
+    overflow-x: hidden;
+}
+
+
+.infoContainer{
+    min-height: 50vh;
+    margin: 0px 45px;
+    display:flex;
+    justify-content: flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+    color: #FFF
+}
+
+
+.bannerPillContainer{
+    display: flex;
+    background: #000;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.60);
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+    height:38px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.pillInner{
+    display: flex;
+    padding: 10px 19.649px 11px 20px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(116, 36, 255, 0.40) 0%, rgba(196, 0, 255, 0.50) 100%);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.16) inset, 0px 0px 6px 1px rgba(238, 183, 255, 0.10) inset;
+    height:47%;
+}
+.pillOuter{
+    display: flex;
+    height: 38px;
+    padding: 10px 19.649px 11px 20px;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+.titleContentContainer{
+    color: #FFF;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 100px; /* 110.345% */
+    letter-spacing: -3px;
+    margin-top:48px
+}
+
+.doneContentText{
+    color:#69F5FF
+}
+.subtitleContentContainer{
+    margin-top:47px
+}
+.subtitleContentContainer p:last-child{
+    margin-top:15px;
+}
+
+
+.environmentContainer{
+    color:#FFF;
+    margin-top:157px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction:column;
+}
+
+.environmentContainer div:first-child{
+    font-size: 35.016px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.6px; /* 113.092% */
+    letter-spacing: -0.5px;
+}
+
+.environmentTitle{
+
+}
