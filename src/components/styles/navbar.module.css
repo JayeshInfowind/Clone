@@ -33,6 +33,7 @@
     width: 53%;
     align-items: center;
     color:rgb(154, 152, 152);
+    gap: 27px;
 }
 
 .linkLists span {
@@ -52,3 +53,9 @@
     align-items: center;
     color:rgb(118, 116, 116);
 }
+
+@media only screen and (max-width: 575px) {
+    .linkLists {
+        display: none;
+    }
+  }

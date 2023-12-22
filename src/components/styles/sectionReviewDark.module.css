@@ -28,3 +28,28 @@
     justify-content:center;
     margin-top:60px
 }
+
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 767px) {
+    .review {
+        font-size: 26px;
+    }
+.reviewContainer {
+    padding: 75px 0px;
+}
+}
+@media only screen and (max-width: 575px) {
+    .review {
+        font-size: 20px;
+    }
+    .reviewContainer {
+        padding: 50px 0px;
+    }
+    .reviewerContainer {
+        margin-top: 35px;
+    }
+}

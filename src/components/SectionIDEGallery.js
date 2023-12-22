@@ -58,7 +58,7 @@ export function SectionIDEGallery(){
                             </p>
                         </div>
                     </div>
-                    <Image width="710" height="369" style={{objectFit:'cover'}} src="/IDEGallery/Three.webp"/>
+                    <Image width="710" height="369" className={styles.ideImages} style={{objectFit:'cover'}} src="/IDEGallery/Three.webp"/>
                 </div>   
             </div>
         </div>

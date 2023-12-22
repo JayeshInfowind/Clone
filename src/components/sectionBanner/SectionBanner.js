@@ -45,7 +45,7 @@ export function SectionBanner(){
                     </p>
                 </div>
                 <div>
-                    {/* <EnvironmentTabs/> */}
+                    <EnvironmentTabs/>
                 </div>
             </div>
         </div>

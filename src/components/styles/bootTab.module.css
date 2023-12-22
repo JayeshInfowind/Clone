@@ -1,0 +1,87 @@
+.publicSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.bootTabSection {
+  /* background: #1b1a1dfa; */
+  color: #fff;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+
+.bootTabSection li {
+  font-size: 16px;
+}
+
+.publicSection h1,
+.publicSection h2,
+.publicSection h3,
+.publicSection h4,
+.publicSection h5,
+.publicSection ul {
+  padding-left: 36px;
+  padding-right: 36px;
+}
+.publicSection h3 {
+  font-size: 36px;
+}
+
+.boxSkill {
+  display: flex;
+  padding: 20px 22px;
+  background-color: rgb(39, 42, 48, 0.6);
+  border-radius: 3px;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid transparent;
+  padding: 20px;
+}
+.boxSkill:hover {
+  border: 1px solid hsl(165 100% 60%);
+  background-color: transparent;
+  transform: translateY(-2px);
+}
+.boxSkill h6 {
+  color: #cccccc;
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: normal;
+}
+.boxSkill p {
+  font-size: 11.9px;
+  color: #cccccc;
+  line-height: normal;
+}
+
+.gridSkill {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: auto auto auto auto;
+}
+@media only screen and (max-width: 767px) {
+  .gridSkill {
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+  }
+
+}
+@media only screen and (max-width: 575px) {
+  .titleContentContainer {
+      font-size: 50px;
+      line-height: 62px;
+  }
+  .environmentContainer {
+      margin-top: 71px;
+      text-align: center;
+  }
+  .gridSkill {
+    grid-template-columns: auto;
+    padding: 20px;
+  }
+}

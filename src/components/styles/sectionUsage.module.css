@@ -37,3 +37,25 @@
     grid-template-columns: auto auto auto auto;
     grid-row-gap: 4rem;
 }
+
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 991px) {
+
+}
+@media only screen and (max-width: 767px) {
+    .userTitle {
+        font-size: 26px;
+
+    }
+
+}
+@media only screen and (max-width: 575px) {
+    .globalUsageUsers {
+        grid-template-columns: auto auto;
+
+    }
+    .userTitle {
+        font-size: 23px;
+    }
+}

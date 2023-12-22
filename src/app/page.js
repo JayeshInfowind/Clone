@@ -11,7 +11,6 @@ export default function Home() {
   
   return (
     <main>
-      <Navbar />
       <SectionBanner/>
       <SectionUsage/>
       <SectionInstantDevExp/>
@@ -19,7 +18,6 @@ export default function Home() {
       <SectionReviewDark/>
       <SectionIDEGallery/>
       <SectionReviewSvelte/>
-      <Footer/>
     </main>
   )
 }

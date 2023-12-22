@@ -36,7 +36,7 @@
 
 .pillInner{
     display: flex;
-    padding: 10px 19.649px 11px 20px;
+    padding: 19px 19.649px 20px 20px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -95,4 +95,25 @@
 
 .environmentTitle{
 
+}
+
+@media only screen and (max-width: 767px) {
+    .titleContentContainer {
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+}
+@media only screen and (max-width: 575px) {
+    .titleContentContainer {
+        font-size: 50px;
+        line-height: 62px;
+    }
+    .environmentContainer {
+        margin-top: 71px;
+        text-align: center;
+    }
+    .pillOuter {
+        display: none;
+    }
 }

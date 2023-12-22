@@ -14,7 +14,7 @@ export function SectionInstantDevExp() {
         Instant dev experiences
         </p>
       </div>
-        <p style={{ textAlign: "start", fontWeight : 700, marginTop : '50px', fontSize : "72px" }}>
+        <p className={styles.waitText}>
           {"Wait, I can enjoy web dev again?"}
         </p>
       <div style={{marginTop : "30px"}} className={styles.galleryContent}>
@@ -32,7 +32,7 @@ export function SectionInstantDevExp() {
       <div className={styles.galleryContentWrapper}>
         <div className={styles.gallerContentContainer}>
           <div className={styles.galleryTextContentWrapper}>
-            <div className={styles.galleryContentTitle}>
+            <div className={`${styles.galleryContentTitle}`} >
               <p>{"Instant Bug Reports"}</p>
             </div>
             <div className={styles.galleryContent}>
