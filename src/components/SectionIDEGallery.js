@@ -26,11 +26,11 @@ export function SectionIDEGallery(){
                             </p>
                         </div>
                     </div>
-                    <Image width="495" height="710" className={styles.ideImages} src="/IDEGallery/One.webp"/>
+                    <Image width="495" height="710"  style={{objectFit:'cover'}} className={styles.ideImages} src="/IDEGallery/One.webp"/>
                 </div>   
 
                 <div className={styles.gallerContentContainer}>
-                    <Image width="495" height="710" className={styles.ideImages} src="/IDEGallery/Two.webp"/>
+                    <Image width="495" height="710"  style={{objectFit:'cover'}} className={styles.ideImages} src="/IDEGallery/Two.webp"/>
                     <div className={styles.galleryTextContentWrapper}>
                         <div className={styles.galleryContentTitle}>
                         <p>
@@ -58,7 +58,7 @@ export function SectionIDEGallery(){
                             </p>
                         </div>
                     </div>
-                    <Image width="710" height="369" src="/IDEGallery/Three.webp"/>
+                    <Image width="710" height="369" style={{objectFit:'cover'}} src="/IDEGallery/Three.webp"/>
                 </div>   
             </div>
         </div>

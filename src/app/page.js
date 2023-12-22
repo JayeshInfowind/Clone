@@ -6,6 +6,7 @@ import { SectionReviewDark } from "@/components/SectionReviewDark";
 import {SectionIDEGallery} from "@/components/SectionIDEGallery";
 import { SectionReviewSvelte } from "@/components/SectionReviewSvelte";
 import {SectionInstantDevExp} from '@/components/SectionInstantDevExp';
+import Footer from "@/components/Footer";
 export default function Home() {
   
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <SectionReviewDark/>
       <SectionIDEGallery/>
       <SectionReviewSvelte/>
+      <Footer/>
     </main>
   )
 }

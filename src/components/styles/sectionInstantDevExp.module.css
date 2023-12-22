@@ -13,6 +13,7 @@
 
 .galleryHeading{
     width:100%;
+    margin: auto;
     font-size: 43.484px;
     font-style: normal;
     font-weight: 400;
@@ -55,7 +56,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 34.2px; /* 190% */
-    margin-top:32px
+    margin-top:10px
 }
 .ideImages{
     width: 710px;

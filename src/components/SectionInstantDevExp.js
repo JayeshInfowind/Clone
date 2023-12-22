@@ -1,66 +1,119 @@
-import Image from 'next/image';
-import styles from './styles/sectionInstantDevExp.module.css'
+import Image from "next/image";
+import styles from "./styles/sectionInstantDevExp.module.css";
 
-export function SectionInstantDevExp(){
-    return (
-        <div className={styles.galleryContainer}>
-            <div className={styles.galleryHeading}>
-                <p>
-                    {'Use the web'}
-                    <span className={styles.aqua}>
-                        {'to build the web.'}
-                    </span>
-                </p>
+export function SectionInstantDevExp() {
+  return (
+    <div className={styles.galleryContainer}>
+      <div
+        style={{ textAlign: "start", padding: "30px" }}
+        className={styles.galleryHeading}
+      >
+      <div style={{ textAlign: "start", color : '#1b82bc'}}>
+        <img src="/IDEGallery/wand.svg" style={{ fill: '#1b82bc'}} alt="" height={40} width={40} />
+        <p style={{fontSize : '16px', fontWeight : 'bold'}}>
+        Instant dev experiences
+        </p>
+      </div>
+        <p style={{ textAlign: "start", fontWeight : 700, marginTop : '50px', fontSize : "72px" }}>
+          {"Wait, I can enjoy web dev again?"}
+        </p>
+      <div style={{marginTop : "30px"}} className={styles.galleryContent}>
+        <p>
+          Significantly reduce time to market with
+          <b>
+          {' '}
+            matchlessly secure, instantly reproducible,  <br/>   fullstack dev
+            environments
+          </b>
+           {' '}which <b>boot in milliseconds.</b>
+        </p>
+      </div>
+      </div>
+      <div className={styles.galleryContentWrapper}>
+        <div className={styles.gallerContentContainer}>
+          <div className={styles.galleryTextContentWrapper}>
+            <div className={styles.galleryContentTitle}>
+              <p>{"Instant Bug Reports"}</p>
             </div>
-            <div className={styles.galleryContentWrapper}>
-                <div className={styles.gallerContentContainer}>
-                    <div className={styles.galleryTextContentWrapper}>
-                        <div className={styles.galleryContentTitle}>
-                        <p>
-                            {'Seamless Node.js debugging with Chrome Dev Tools'}
-                        </p>
-                        </div>
-                        <div className={styles.galleryContent}>
-                            <p>
-                                {'Debug backend applications just as easily as frontend, using the powerful tools'}&nbsp;<b>{'already shipped in your browser.'}</b>
-                            </p>
-                        </div>
-                    </div>
-                    <Image width="495" height="710" className={styles.ideImages} src="/IDEGallery/One.webp"/>
-                </div>   
-
-                <div className={styles.gallerContentContainer}>
-                    <Image width="495" height="710" className={styles.ideImages} src="/IDEGallery/Two.webp"/>
-                    <div className={styles.galleryTextContentWrapper}>
-                        <div className={styles.galleryContentTitle}>
-                        <p>
-                            {'Run the backend in the frontend'}
-                        </p>
-                        </div>
-                        <div className={styles.galleryContent}>
-                            <p>
-                                {'If it can run on Node.js, it can run on StackBlitz WebContainers, including backend functionality and libraries, meaning you can'}&nbsp;<b>{'run servers. In your browser.'}</b>
-                            </p>
-                        </div>
-                    </div>
-                </div>   
-
-                <div className={styles.gallerContentContainer}>
-                    <div className={styles.galleryTextContentWrapper}>
-                        <div className={styles.galleryContentTitle}>
-                        <p>
-                            {'Fresh, fast environments on every page load.'}
-                        </p>
-                        </div>
-                        <div className={styles.galleryContent}>
-                            <p>
-                                {'Reinstalling   node_modules   is as simple as refreshing the page, and since StackBlitz package installations are orders of magnitude faster than local,'}&nbsp;<b>{'installing packages is now a trivial endeavour.'}</b>
-                            </p>
-                        </div>
-                    </div>
-                    <Image width="710" height="369" src="/IDEGallery/Three.webp"/>
-                </div>   
+            <div className={styles.galleryContent}>
+              <span>
+                Create <b>zero-overhead, live templates</b> for your users to
+                reliably submit bugs against, <b>filtering out true issues</b>{" "}
+                from everything else.
+              </span>
+              <br />
             </div>
+            <span>
+              <span style={{ color: "#00a3cc" }}>
+                {" "}
+                Share complete environments with only a url,
+              </span>{" "}
+              and never spin up heavy local installations for a simple bug
+              report ever again.
+            </span>
+          </div>
+          <Image
+            width="495"
+            height="750"
+            style={{objectFit : 'cover'}}
+            className={styles.ideImages}
+            src="/IDEGallery/bug_reports.png"
+          />
         </div>
-    );
+
+        <div className={styles.gallerContentContainer}>
+          <Image
+            width="495"
+            height="710"
+            style={{objectFit : 'cover'}}
+            className={styles.ideImages}
+            src="/IDEGallery/interactive_documentation.png"
+          />
+          <div className={styles.galleryTextContentWrapper}>
+            <div className={styles.galleryContentTitle}>
+              <p>{"Interactive Documentation"}</p>
+            </div>
+            <div className={styles.galleryContent}>
+              <span>
+                <span style={{ color: "#00a3cc" }}>
+                  {" "}
+                  Use the StackBlitz SDK
+                </span>{" "}
+                to embed and interact with <b>actual code</b> in your{" "}
+                <b>actual docs,</b> blog or website.
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className={styles.gallerContentContainer}>
+          <div className={styles.galleryTextContentWrapper}>
+            <div className={styles.galleryContentTitle}>
+              <p>{"Rapid Prototyping"}</p>
+            </div>
+            <div className={styles.galleryContent}>
+              <span>
+                Speed up your entire development process with{" "}
+                <b>real time hot-reloading in the</b>
+                <b style={{ color: "#00a3cc" }}>
+                  {" "}
+                  fastest dev environment ever made.
+                </b>
+              </span>
+            </div>
+            <span>
+              Collaborate remotely on different devices, send and receive
+              instant feedback, and <b>get to market faster.</b>
+            </span>
+          </div>
+          <Image
+            width="710"
+            height="600"
+            style={{objectFit:'none'}}
+            src="/IDEGallery/rapid_prototyping.png"
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
